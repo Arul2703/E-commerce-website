@@ -1,0 +1,17 @@
+.border-box{
+  
+  width: 100%;
+  overflow: hidden;
+}
+.box1{
+  /* display: inline-block; */
+  float: left;
+  width: 50%;
+}
+
+.box2{
+  /* display: inline-block; */
+  float: left;
+  width: 50%;
+
+}

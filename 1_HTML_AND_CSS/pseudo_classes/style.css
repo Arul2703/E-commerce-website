@@ -1,0 +1,26 @@
+/* Here, We are gonna style the list items using Pseudo selector using CSS */
+li:nth-child(even){ background-color: rgb(167, 108, 223);}
+li:nth-child(odd){ background-color: rgb(199, 176, 221);}
+
+/*
+Some of the most used pseudo-classes are - :link, :visited, :active, :hover, :focus, :first-child. :link - Used to add special style to an unvisited link.
+:visited - Used to add special style to a visited link.
+:hover - Used to add special style to an element when you mouse over it.
+:active - Used to add special style to an active element.
+:focus - Used to add special style to an element while the element has focus.
+:first-child - Used to add special style to an element that is the first child of some other element.
+:nth-child - Used to add style to a particular child element.
+The order of declaration is very important when you are using pseudo classes to style the links, :link and :visited usually come first, followed by :hover and :focus, :active is written last.
+nth-child
+
+To style the odd/even li elements or table. we use the nth-child pseudo class.
+
+The syntax for the nth-child pseudo class is the same as the other pseudo-classes,  the only difference is you have to mention the styling pattern an+b in (). The CSS styles the number of child elements whose numeric position in the series of children matches the pattern an+b.
+
+A=1 and b=0, equals n, which would match every child element.
+A=2 and b=0 , equals 2n, which would match child elements 2, 4, 6, 8, etc. We can substitute the keyword even in the ()  for this expression.
+A=2 and b= 1, equals 2n+1 which would match child elements 1, 3, 5, 7, etc. We can substitute the keyword odd in the () for this expression.
+This is how we use :hover pseudo class to style a table
+
+On hover, the row background color changes to #ffff99
+*/

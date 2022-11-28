@@ -1,0 +1,20 @@
+.thumbnail{
+  display: inline-block;
+  height: auto;
+  padding: 5px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border: solid 1px;
+  background-color: rgb(158, 200, 248);
+  text-align: center;
+  color: blueviolet;
+  border: 1px black;
+}
+
+.box{
+  align-items: center;
+}
+
+.thumbnail:hover{
+  color: darkblue;
+}
